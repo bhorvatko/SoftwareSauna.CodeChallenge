@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A67CFA2E-ED83-4E86-9D69-68669681EAC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge", "src\SoftwareSauna.CodeChallenge\SoftwareSauna.CodeChallenge.csproj", "{D441C857-AE02-4A57-86BD-9395845D65DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45C37A37-7D96-4277-BDD1-E00DAEC2FEE5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{859D1B82-8CC7-48F7-BBF9-5F8F38BB9D99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge.IntegrationTests", "tests\SoftwareSauna.CodeChallenge.IntegrationTests\SoftwareSauna.CodeChallenge.IntegrationTests.csproj", "{D918947A-465B-4514-98E5-43C2FD2C0A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareSauna.CodeChallenge.UnitTests", "tests\SoftwareSauna.CodeChallenge.UnitTests\SoftwareSauna.CodeChallenge.UnitTests.csproj", "{AA302189-6D6B-4DEE-992A-0DA2D825F323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D441C857-AE02-4A57-86BD-9395845D65DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D441C857-AE02-4A57-86BD-9395845D65DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D441C857-AE02-4A57-86BD-9395845D65DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D441C857-AE02-4A57-86BD-9395845D65DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D918947A-465B-4514-98E5-43C2FD2C0A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D918947A-465B-4514-98E5-43C2FD2C0A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D918947A-465B-4514-98E5-43C2FD2C0A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D918947A-465B-4514-98E5-43C2FD2C0A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D441C857-AE02-4A57-86BD-9395845D65DA} = {A67CFA2E-ED83-4E86-9D69-68669681EAC8}
+		{D918947A-465B-4514-98E5-43C2FD2C0A17} = {859D1B82-8CC7-48F7-BBF9-5F8F38BB9D99}
+		{AA302189-6D6B-4DEE-992A-0DA2D825F323} = {859D1B82-8CC7-48F7-BBF9-5F8F38BB9D99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D1B6C48-9267-43D7-BC1B-BDACCFF3EB78}
+	EndGlobalSection
+EndGlobal
