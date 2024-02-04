@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A67CFA2E-ED83-4E86-9D69-68669681EAC8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge", "src\SoftwareSauna.CodeChallenge\SoftwareSauna.CodeChallenge.csproj", "{D441C857-AE02-4A57-86BD-9395845D65DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge.Core", "src\SoftwareSauna.CodeChallenge.Core\SoftwareSauna.CodeChallenge.Core.csproj", "{D441C857-AE02-4A57-86BD-9395845D65DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45C37A37-7D96-4277-BDD1-E00DAEC2FEE5}"
 	ProjectSection(SolutionItems) = preProject
@@ -17,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{859D1B82
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge.IntegrationTests", "tests\SoftwareSauna.CodeChallenge.IntegrationTests\SoftwareSauna.CodeChallenge.IntegrationTests.csproj", "{D918947A-465B-4514-98E5-43C2FD2C0A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareSauna.CodeChallenge.UnitTests", "tests\SoftwareSauna.CodeChallenge.UnitTests\SoftwareSauna.CodeChallenge.UnitTests.csproj", "{AA302189-6D6B-4DEE-992A-0DA2D825F323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftwareSauna.CodeChallenge.UnitTests", "tests\SoftwareSauna.CodeChallenge.UnitTests\SoftwareSauna.CodeChallenge.UnitTests.csproj", "{AA302189-6D6B-4DEE-992A-0DA2D825F323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareSauna.CodeChallenge.Host", "src\SoftwareSauna.CodeChallenge.Host\SoftwareSauna.CodeChallenge.Host.csproj", "{E00BCE58-FA0A-483F-BFBD-0BBB368698A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareSauna.CodeChallenge.Infrastructure", "src\SoftwareSauna.CodeChallenge.Infrastructure\SoftwareSauna.CodeChallenge.Infrastructure.csproj", "{BE648555-36E6-42B9-B933-268037E7AAB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA302189-6D6B-4DEE-992A-0DA2D825F323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00BCE58-FA0A-483F-BFBD-0BBB368698A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00BCE58-FA0A-483F-BFBD-0BBB368698A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00BCE58-FA0A-483F-BFBD-0BBB368698A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00BCE58-FA0A-483F-BFBD-0BBB368698A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE648555-36E6-42B9-B933-268037E7AAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE648555-36E6-42B9-B933-268037E7AAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE648555-36E6-42B9-B933-268037E7AAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE648555-36E6-42B9-B933-268037E7AAB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 		{D441C857-AE02-4A57-86BD-9395845D65DA} = {A67CFA2E-ED83-4E86-9D69-68669681EAC8}
 		{D918947A-465B-4514-98E5-43C2FD2C0A17} = {859D1B82-8CC7-48F7-BBF9-5F8F38BB9D99}
 		{AA302189-6D6B-4DEE-992A-0DA2D825F323} = {859D1B82-8CC7-48F7-BBF9-5F8F38BB9D99}
+		{E00BCE58-FA0A-483F-BFBD-0BBB368698A4} = {A67CFA2E-ED83-4E86-9D69-68669681EAC8}
+		{BE648555-36E6-42B9-B933-268037E7AAB6} = {A67CFA2E-ED83-4E86-9D69-68669681EAC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D1B6C48-9267-43D7-BC1B-BDACCFF3EB78}

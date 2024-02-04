@@ -1,7 +1,9 @@
-﻿namespace SoftwareSauna.CodeChallenge.Exceptions;
+﻿using SoftwareSauna.CodeChallenge.Core.Exceptions;
+
+namespace SoftwareSauna.CodeChallenge.Exceptions;
 
 public class NoEndFieldException
-    : Exception
+    : DomainArgumentException
 {
     internal NoEndFieldException()
         : base("No end field was found in the provided map.")

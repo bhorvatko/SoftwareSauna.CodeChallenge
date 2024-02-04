@@ -1,7 +1,9 @@
-﻿namespace SoftwareSauna.CodeChallenge.Exceptions;
+﻿using SoftwareSauna.CodeChallenge.Core.Exceptions;
+
+namespace SoftwareSauna.CodeChallenge.Exceptions;
 
 public class NoStartingFieldException
-    : Exception
+    : DomainArgumentException
 {
     internal NoStartingFieldException()
         : base("No starting field has been found in the provided map.")

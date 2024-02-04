@@ -1,9 +1,10 @@
-﻿using SoftwareSauna.CodeChallenge.MapFields;
+﻿using SoftwareSauna.CodeChallenge.Core.Exceptions;
+using SoftwareSauna.CodeChallenge.MapFields;
 
 namespace SoftwareSauna.CodeChallenge.Exceptions;
 
 public class MultiplePathsException
-    : Exception
+    : DomainArgumentException
 {
     internal MultiplePathsException(
         MapField field,

@@ -19,3 +19,8 @@ The test suite is split into
 
  - Integration tests - these cover the assignment specification and acceptance criteria
  - Unit tests - these cover units of behaviour of the solution
+	
+## WebAPI
+The project includes an endpoint for resolving maps. Note that requests should be made using `\n` or `\r\n` as line breaks, e.g. `"mapString": "  @---A---+\n          |\n  x-B-+   C\n      |   |\n      +---+\n"`
+
+OpenAPI documentation is available @ `/swagger`.

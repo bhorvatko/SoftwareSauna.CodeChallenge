@@ -1,9 +1,10 @@
-﻿using SoftwareSauna.CodeChallenge.MapFields;
+﻿using SoftwareSauna.CodeChallenge.Core.Exceptions;
+using SoftwareSauna.CodeChallenge.MapFields;
 
 namespace SoftwareSauna.CodeChallenge.Exceptions;
 
 public class FakeTurnException
-    : Exception
+    : DomainArgumentException
 {
     internal FakeTurnException(MapField fakeTurnField)
         : base($"A fake turn has been detected at coordinates {fakeTurnField.Coordinates}")

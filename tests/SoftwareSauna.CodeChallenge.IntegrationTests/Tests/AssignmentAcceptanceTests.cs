@@ -3,7 +3,7 @@ using SoftwareSauna.CodeChallenge.Exceptions;
 using SoftwareSauna.CodeChallenge.IntegrationTests.Helpers;
 using SoftwareSauna.CodeChallenge.Maps;
 
-namespace SoftwareSauna.CodeChallenge.IntegrationTests;
+namespace SoftwareSauna.CodeChallenge.IntegrationTests.Tests;
 
 public class AssignmentAcceptanceTests
 {
@@ -88,7 +88,7 @@ public class AssignmentAcceptanceTests
     {
         string input = MapHelper.ReadMap(fileName);
 
-        Action act = () => 
+        Action act = () =>
             VectorMap.FromMatrixMap(MatrixMap.FromString(input));
 
         act.Should().Throw<MultiplePathsException>();
@@ -126,7 +126,7 @@ public class AssignmentAcceptanceTests
 
         Action act = () =>
             VectorMap.FromMatrixMap(MatrixMap.FromString(input));
-        
+
         act.Should().Throw<FakeTurnException>();
     }
 }

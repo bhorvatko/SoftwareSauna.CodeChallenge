@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SoftwareSauna.CodeChallenge\SoftwareSauna.CodeChallenge.csproj" />
+    <ProjectReference Include="..\..\src\SoftwareSauna.CodeChallenge.Core\SoftwareSauna.CodeChallenge.Core.csproj" />
   </ItemGroup>
 
 </Project>
